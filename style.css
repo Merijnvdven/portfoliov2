@@ -1,0 +1,166 @@
+*{background-color: #050505;}
+
+ .navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050505;
+    margin-bottom: 130px;
+  }
+
+  .navlist {
+    float: left;
+  }
+
+  
+  .navlist a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 160px;
+    text-decoration: none;
+    margin-left: 23px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .navlist a:hover {
+    color: #E42F1C;
+  }
+
+  .navlist_active{
+      float: left;
+  }
+
+  .navlist_active a{
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 160px;
+    text-decoration: none;
+    margin-left: 23px;
+  }
+  .navlist_active a:hover {
+    color: #E42F1C;
+  }
+
+  //////leeruitkomsten
+.leeruitkomsten_1ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050505;
+    margin-bottom: 20px;
+    
+}
+
+.leeruitkomsten_1li {
+    float: left;
+}
+
+.leeruitkomsten_1li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 147px;
+    text-decoration: none;
+    margin-left: 58px;
+    padding-right: 80px;
+}
+
+.leeruitkomsten_1li a:hover{
+    color: #E42F1C;
+}
+
+.leeruitkomsten_2ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050505;
+    margin-bottom: 100px;
+    
+}
+
+.leeruitkomsten_2li {
+    float: left;
+}
+
+.leeruitkomsten_2li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 90px;
+    text-decoration: none;
+   margin-left: 100px;
+    padding-right: 80px;
+}
+
+.leeruitkomsten_2li a:hover{
+    color: #E42F1C;
+}
+
+
+//////over mij
+.Overmij1ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050505;
+    margin-bottom: 70px;
+    text-align: right;
+}
+
+
+.Overmij1li {
+    float: right;
+    color: white;
+}
+
+.Overmij1li a{
+    display: block;
+    color: #FC6666;
+    text-align: center;
+    padding: 14px 135px;
+    text-decoration: none;
+   margin-right: 126px;
+}
+
+
+
+.Overmij2ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050505;
+    margin-bottom: 70px;
+    text-align: right;
+}
+
+
+.Overmij2li {
+    float: right;
+    color: white;
+}
+
+.Overmij2li a{
+    display: block;
+    color: #FC6666;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+   margin-right: 189px;
+   
+}
+
+.whitetext 
+{ 
+    color: white; 
+} 
+
+.rechthoek{
+position: absolute;
+}
