@@ -44,7 +44,7 @@
     color: #E42F1C;
   }
 
-  //////leeruitkomsten
+  
 .leeruitkomsten_1ul{
     list-style-type: none;
     margin: 0;
@@ -102,7 +102,7 @@
 }
 
 
-//////over mij
+
 .Overmij1ul{
     list-style-type: none;
     margin: 0;
@@ -163,4 +163,17 @@
 
 .rechthoek{
 position: absolute;
+left: 20%;
+top: 50%;
+transform: translate(-50%,-50%);
+width: 200px;
+height: 330px;
+background: #FC6666;
+}
+
+.merijnfoto{
+    position: absolute;
+    left: 19%;
+    top: 48%;
+    transform: translate(-50%,-50%);
 }
