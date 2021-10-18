@@ -221,3 +221,30 @@ background: #FC6666;
     width: 624px;
     height: 468px;
 }
+
+.button{
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    color: #ff4931;
+  
+    border: solid  2px #ff4931;
+    border-radius: 50px;
+  
+    padding: 10px 15px;
+  
+    transition-duration: 200ms;
+    text-decoration: none;
+    
+  }
+
+.button:hover {
+    background-color: red; 
+    color: white;
+  }
+
+  .container{
+      width: 1000px;
+     padding-right: 300px;
+  }
