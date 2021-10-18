@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
 *{background-color: #050505;}
 
  .navbar{
@@ -6,7 +9,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #050505;
-    margin-bottom: 130px;
+  
   }
 
   .navlist {
@@ -18,27 +21,35 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 160px;
+    padding: 14px 150px;
     text-decoration: none;
     margin-left: 23px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 1500;
   }
   
   /* Change the link color to #111 (black) on hover */
   .navlist a:hover {
     color: #E42F1C;
+    font-family: "Nunito", sans-serif;
+    font-weight: 1500;
   }
 
   .navlist_active{
       float: left;
+      font-family: "Nunito", sans-serif;
+    font-weight: 1500;
   }
 
   .navlist_active a{
     display: block;
     color: red;
     text-align: center;
-    padding: 14px 160px;
+    padding: 14px 150px;
     text-decoration: none;
     margin-left: 23px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 1500;
   }
   .navlist_active a:hover {
     color: #E42F1C;
@@ -52,11 +63,15 @@
     overflow: hidden;
     background-color: #050505;
     margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
     
 }
 
 .leeruitkomsten_1li {
     float: left;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
 }
 
 .leeruitkomsten_1li a{
@@ -65,12 +80,17 @@
     text-align: center;
     padding: 14px 147px;
     text-decoration: none;
-    margin-left: 58px;
+    margin-left: 50px;
     padding-right: 80px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    margin-top: 120px;
 }
 
 .leeruitkomsten_1li a:hover{
     color: #E42F1C;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
 }
 
 .leeruitkomsten_2ul{
@@ -80,25 +100,33 @@
     overflow: hidden;
     background-color: #050505;
     margin-bottom: 100px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
     
 }
 
 .leeruitkomsten_2li {
     float: left;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
 }
 
 .leeruitkomsten_2li a{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 90px;
+    padding: 14px 80px;
     text-decoration: none;
    margin-left: 100px;
     padding-right: 80px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
 }
 
 .leeruitkomsten_2li a:hover{
     color: #E42F1C;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
 }
 
 
@@ -176,4 +204,20 @@ background: #FC6666;
     left: 19%;
     top: 48%;
     transform: translate(-50%,-50%);
+}
+
+.H1{
+    color: white;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+}
+
+.lance_logo{
+    background-color: #FC6666;
+}
+
+.Moodboard1{
+    width: 624px;
+    height: 468px;
 }
