@@ -30,7 +30,7 @@
   
   /* Change the link color to #111 (black) on hover */
   .navlist a:hover {
-    color: #E42F1C;
+    color: #ff344c;
     font-family: "Nunito", sans-serif;
     font-weight: 1500;
   }
@@ -43,7 +43,7 @@
 
   .navlist_active a{
     display: block;
-    color: red;
+    color: #ff344c;
     text-align: center;
     padding: 14px 150px;
     text-decoration: none;
@@ -52,7 +52,7 @@
     font-weight: 1500;
   }
   .navlist_active a:hover {
-    color: #E42F1C;
+    color: #ff344c;
   }
 
   
@@ -88,7 +88,7 @@
 }
 
 .leeruitkomsten_1li a:hover{
-    color: #E42F1C;
+    color: #ff344c    ;
     font-family: "Nunito", sans-serif;
     font-weight: 300;
 }
@@ -124,7 +124,7 @@
 }
 
 .leeruitkomsten_2li a:hover{
-    color: #E42F1C;
+    color: #ff344c;
     font-family: "Nunito", sans-serif;
     font-weight: 300;
 }
@@ -196,7 +196,7 @@ top: 50%;
 transform: translate(-50%,-50%);
 width: 200px;
 height: 330px;
-background: #FC6666;
+background: #ff344c;
 }
 
 .merijnfoto{
@@ -210,11 +210,41 @@ background: #FC6666;
     color: white;
     text-align: center;
     font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+.H2{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    
+}
+.H3{
+    color: white;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+}
+.H4{
+    color: white;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+.H1red{
+    color: #ff344c;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+.H2red{
+    color: #ff344c;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
     font-weight: 300;
 }
-
 .lance_logo{
-    background-color: #FC6666;
+    background-color: #ff344c;
 }
 
 .Moodboard1{
@@ -227,9 +257,9 @@ background: #FC6666;
     font-weight: 100;
     font-size: 16px;
     text-align: center;
-    color: #ff4931;
+    color: #ff344c;
   
-    border: solid  2px #ff4931;
+    border: solid  2px #ff344c;
     border-radius: 50px;
   
     padding: 10px 15px;
@@ -237,14 +267,99 @@ background: #FC6666;
     transition-duration: 200ms;
     text-decoration: none;
     
+    
   }
 
 .button:hover {
-    background-color: red; 
+    background-color: #ff344c; 
     color: white;
+   
   }
 
   .container{
       width: 1000px;
      padding-right: 300px;
   }
+
+ .pijl_vooruit{
+width: 40px;
+height: 40px;
+
+ }
+
+ .pijl_terug{
+    width: 40px;
+    height: 40px;
+    
+     }
+    
+     .arrow {
+        border: solid #ff344c;
+        border-width: 0 5px 5px 0;
+        display: inline-block;
+        padding: 3px;
+        width: 10px;
+        height: 10px;
+        
+      }
+      
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+
+      .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+      }
+      
+      .container{
+          text-align: left;
+          padding-inline: 20px;
+      }
+
+      .rij{
+       display: flex;
+      }
+      .container2{
+          
+      }
+
+      .container3{
+          text-align: center;
+      }
+    .logoslance2{
+width: 400px;
+height: 400px;
+      }
+
+      .portfolio_voorbeeld{
+width: 550px;
+height: 300px;
+      }
+
+      .pocplaatjeklikken{
+          width: 500px;
+          height: 300px;
+      }
+      .brandguide_{
+          width: 400px;
+          height: 400px;
+      }
+      .todolist_{
+          width: 400px;
+          height: 400px;
+      }
+      .todolist_2{
+          width: 500px;
+          height: 300px;
+      }
+      .lance_logo1{
+width: 350px;
+height: 450px;
+      }
+
+.concurrentie_{
+    width: 350px;
+    height: 350px;
+}
