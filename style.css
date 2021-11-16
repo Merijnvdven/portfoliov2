@@ -80,8 +80,8 @@
     text-align: center;
     padding: 14px 147px;
     text-decoration: none;
-    margin-left: 50px;
-    padding-right: 80px;
+    margin-left: 90px;
+    padding-right: 85px;
     font-family: "Nunito", sans-serif;
     font-weight: 300;
     margin-top: 120px;
@@ -117,7 +117,7 @@
     text-align: center;
     padding: 14px 80px;
     text-decoration: none;
-   margin-left: 100px;
+   margin-left: 148px;
     padding-right: 80px;
     font-family: "Nunito", sans-serif;
     font-weight: 300;
@@ -362,4 +362,76 @@ height: 450px;
 .concurrentie_{
     width: 350px;
     height: 350px;
+}
+
+.balbewegen_1{
+    width: 400px;
+    height: 300px;
+}
+
+.balbewegen_3{
+    width: 500px;
+    height: 300px;
+}
+
+.navfont{
+    font-size: 35px;
+}
+
+.Lfont{
+    font-size: 17px;
+}
+
+.inhoud_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050505;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+}
+
+.inhoudli a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 147px;
+    text-decoration: none;
+   
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+ 
+}
+.inhoudli{
+    float: left;
+}
+
+
+
+.inhoud {
+    width: 70%;
+    margin-left:14%
+    
+}
+
+.portfolio_item {
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    margin-bottom: 65px;
+}
+
+.portfolio_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio_item a:hover{
+    color: #ff344c    ;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
 }
