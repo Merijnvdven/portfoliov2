@@ -1,0 +1,25 @@
+{
+      "products": [
+        {
+          "id": 1,
+          "name": "salami",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "hawai",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "shoarma",
+          "quantity": 1
+        },
+        {
+            "id": 4,
+            "name": "funghi",
+            "quantity": 1
+          }
+      ]
+      
+    }
