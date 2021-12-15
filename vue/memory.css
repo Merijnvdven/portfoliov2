@@ -7,7 +7,7 @@
 body {
 height: 100vh;
 display: flex;
-background: grey;
+background: #060AB2;
 }
 .memory-game {
     width: 640px;
@@ -15,6 +15,7 @@ background: grey;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 1000px;
    
 }
 .memory-card{
@@ -22,11 +23,21 @@ background: grey;
     height:calc(33.333% - 10px);
     margin: 5px;
     position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
 }
 
 .memory-card:active{
     transform: scale(.97);
+    transition: transform .2s;
 }
+
+.memory-card.flip {
+    transform: rotateY(180deg)
+}
+
+
 .voorkant,
 .achterkant{
     width: 100%;
@@ -34,5 +45,10 @@ background: grey;
     padding: 20px;
     position: absolute;
 border-radius: 5px;
-background: blue;
+background: #1c7ccc;
+backface-visibility: hidden ;
+}
+
+.voorkant{
+    transform: rotateY(180deg)
 }
