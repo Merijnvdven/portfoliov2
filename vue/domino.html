@@ -22,18 +22,6 @@ function getSelectValue()
 }
 </script>
 
-
-
-
-</body>
-</html>
-
-
-
-
-
-
-
 <script src="domino.js"></script>
 <script src="https://unpkg.com/vue"></script>
 
@@ -50,6 +38,11 @@ function getSelectValue()
             <button @click="product.quantity -=1">
                -
                           </button>
+
+                     
+                          <img class="pizza" :src="(product.image)"> 
+                        
+
         </li> 
     </ul> 
     <h2>Totaal: {{ totalProducts}}</h2>
@@ -80,6 +73,18 @@ fetch('vue.json')
    
 </script>
 </div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
 
 
 
