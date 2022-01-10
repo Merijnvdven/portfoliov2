@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+   
+
+}
+.vierkant{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: white;
+    width: 300px;
+    height: 200px;
+
+}
+
+.inhoud {
+    margin-top: 280px;
+    width: 70%;
+    margin-left:17%
+    
+}
+
+.spelletjes {
+    width: 19%;
+    margin-left: 3%;
+    float: left;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    margin-bottom: 65px;
+}
+
+.spelletjes a {
+    text-decoration: none;
+    color: white;
+}
+
+.spelletjes a:hover{
+    color: #ff344c    ;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+}
